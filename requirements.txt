@@ -1,0 +1,7 @@
+torch>=2.0
+torchvision>=0.15
+pandas>=1.0
+Pillow>=9.0
+numpy>=1.20
+tqdm>=4.60
+PyYAML>=6.0

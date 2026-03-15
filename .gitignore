@@ -1,0 +1,20 @@
+# 数据集
+dataset/*
+!dataset/.gitkeep
+*.h5
+*.npz
+*.pt
+*.pth
+
+# 训练输出
+runs/
+logs/
+checkpoints/*
+!checkpoints/.gitkeep
+
+# python
+__pycache__/
+*.pyc
+
+# 系统
+.DS_Store

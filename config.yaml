@@ -1,0 +1,12 @@
+# Autofollow 训练配置
+# 数据集目录：需包含 main1、main2、no_target 三个子目录
+
+data:
+  data_root: dataset/0312   # 数据根路径，相对项目根或绝对路径
+
+train:
+  batch_size: 32         # 批大小
+  epochs: 10             # 训练轮数
+  lr: 0.0001             # 学习率
+  weight_decay: 0.0001   # AdamW 权重衰减
+  use_type_sampler: true # true: 按 main:no_target=8:1 加权采样；false: 随机打乱
